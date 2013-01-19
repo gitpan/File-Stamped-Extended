@@ -1,0 +1,26 @@
+---
+abstract: 'generate date/time/PID/extra-string stamped FH for log file'
+author:
+  - 'Dai Okabayashi <bayashi@cpan.org>'
+build_requires:
+  Test::More: 0.88
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: File-Stamped-Extended
+provides:
+  File::Stamped::Extended:
+    file: lib/File/Stamped/Extended.pm
+    version: 0.02
+requires:
+  File::Stamped: 0.02
+  POSIX: 0
+  perl: v5.8.1
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/bayashi/File-Stamped-Extended
+version: 0.02

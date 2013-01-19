@@ -1,0 +1,51 @@
+=encoding utf8
+
+
+This is Perl module B<File::Stamped::Extended>.
+
+=begin html
+
+<a href="http://travis-ci.org/bayashi/File-Stamped-Extended"><img src="https://secure.travis-ci.org/bayashi/File-Stamped-Extended.png"/></a>
+
+=end html
+
+
+=head1 INSTALLATION
+
+File::Stamped::Extended installation is straightforward. If your CPAN shell is set up,
+you should just be able to do
+
+    % cpan File::Stamped::Extended
+
+Download it, unpack it, then build it as per the usual:
+
+    % perl Makefile.PL
+    % make && make test
+
+Then install it:
+
+    % make install
+
+
+=head1 DOCUMENTATION
+
+File::Stamped::Extended documentation is available as in POD. So you can do:
+
+    % perldoc File::Stamped::Extended
+
+
+=head1 REPOSITORY
+
+File::Stamped::Extended is hosted on github
+L<http://github.com/bayashi/File-Stamped-Extended>
+
+
+=head1 LICENSE
+
+This module is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself. See L<perlartistic>.
+
+
+=head1 AUTHOR
+
+Dai Okabayashi E<lt>bayashi@cpan.orgE<gt>
